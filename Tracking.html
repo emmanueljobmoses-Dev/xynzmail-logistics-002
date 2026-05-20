@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us — XYNZ MAIL Global Logistics</title>
+
+  <!-- Shared styles (navbar + footer) -->
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- About page styles -->
+  <link rel="stylesheet" href="tracking.css"/>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ======================================= -->
+  <!-- HEADER / NAVBAR                         -->
+  <!-- ======================================= -->
+  <header id="mainHeader">
+    <nav class="navbar">
+
+      <!-- LOGO -->
+      <a href="INDEX.HTML" class="logo-wrap" aria-label="XYNZ MAIL Home">
+        <div class="logo-img-box">
+          <img
+            src="image/WhatsApp_Image_2026-05-14_at_7.42.51_PM-removebg-preview (1).png"
+            alt="XYNZ MAIL Logo"
+          />
+        </div>
+        <div class="logo-text-box">
+          <span class="logo-brand">XYNZ<strong>MAIL</strong></span>
+          <span class="logo-sub">Global Logistics &amp; Printing</span>
+        </div>
+      </a>
+
+      <!-- NAV LINKS -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="INDEX.HTML">Home</a></li>
+        <li><a href="About.Html" >About Us</a></li>
+        <li><a href="Service.html">Services</a></li>
+        <li><a href="Printing.html">Printing</a></li>
+        <li><a href="Tracking.html ">Tracking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <!-- CTA -->
+      <div class="nav-cta-wrap">
+        <a href="#" class="nav-cta-btn">
+          Get Started <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- HAMBURGER -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </nav>
+  </header>
+
+<!-- =========================
+   TRACKING HERO
+========================= -->
+<section class="tracking-hero">
+
+  <div class="tracking-overlay"></div>
+
+  <div class="tracking-content">
+
+    <span class="tracking-tag">
+      <i class="fa-solid fa-location-crosshairs"></i>
+      Real-Time Shipment Monitoring
+    </span>
+
+    <h1>Track Your Shipment Worldwide</h1>
+
+    <p>
+      Monitor your cargo, parcels, and deliveries in real-time
+      with secure and intelligent shipment tracking technology.
+    </p>
+
+    <div class="tracking-search">
+
+      <input
+        type="text"
+        id="trackingInput"
+        placeholder="Enter Tracking Number (e.g XYNZ-45892)"
+      />
+
+      <button id="trackBtn">
+        Track Shipment
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- =========================
+   LIVE FLEET TRACKING
+========================= -->
+<section class="fleet-tracking">
+
+  <div class="section-head">
+    <span class="section-tag">Smart Fleet Tracking</span>
+    <h2>Live Vehicle Monitoring System</h2>
+
+    <p>
+      Track every delivery vehicle in real-time with intelligent GPS
+      monitoring, live shipment updates, and route optimization.
+    </p>
+  </div>
+
+  <div class="fleet-container">
+
+    <!-- LEFT MAP -->
+    <div class="fleet-map-box">
+
+      <div class="map-top">
+
+        <div>
+          <h3>Global Delivery Map</h3>
+          <span>Updated 2 mins ago</span>
+        </div>
+
+        <div class="map-live">
+          <span></span>
+          LIVE
+        </div>
+
+      </div>
+
+      <div class="fleet-map">
+
+        <!-- Vehicle 1 -->
+        <div class="vehicle vehicle-1">
+          <i class="fa-solid fa-truck"></i>
+        </div>
+
+        <!-- Vehicle 2 -->
+        <div class="vehicle vehicle-2">
+          <i class="fa-solid fa-truck-fast"></i>
+        </div>
+
+        <!-- Vehicle 3 -->
+        <div class="vehicle vehicle-3">
+          <i class="fa-solid fa-box"></i>
+        </div>
+
+        <!-- Route lines -->
+        <div class="route-line route-1"></div>
+        <div class="route-line route-2"></div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="fleet-status">
+
+      <!-- CARD -->
+      <div class="fleet-card active">
+
+        <div class="fleet-card-top">
+
+          <div class="fleet-driver">
+            <img src="https://i.pravatar.cc/100?img=12" alt="">
+            
+            <div>
+              <h4>Michael Johnson</h4>
+              <span>Senior Delivery Driver</span>
+            </div>
+          </div>
+
+          <div class="fleet-badge">
+            On Route
+          </div>
+
+        </div>
+
+        <div class="fleet-info">
+
+          <div class="fleet-item">
+            <span>Tracking ID</span>
+            <strong>XYNZ-45892</strong>
+          </div>
+
+          <div class="fleet-item">
+            <span>Current Location</span>
+            <strong>Lagos Distribution Hub</strong>
+          </div>
+
+          <div class="fleet-item">
+            <span>Estimated Arrival</span>
+            <strong>2 Hours 35 Minutes</strong>
+          </div>
+
+        </div>
+
+        <!-- progress -->
+        <div class="progress-wrap">
+
+          <div class="progress-head">
+            <span>Delivery Progress</span>
+            <strong>78%</strong>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- SECOND CARD -->
+      <div class="fleet-card">
+
+        <div class="fleet-card-top">
+
+          <div class="fleet-driver">
+            <img src="https://i.pravatar.cc/100?img=15" alt="">
+            
+            <div>
+              <h4>Daniel Brooks</h4>
+              <span>International Cargo Driver</span>
+            </div>
+          </div>
+
+          <div class="fleet-badge delivered">
+            Delivered
+          </div>
+
+        </div>
+
+        <div class="fleet-info">
+
+          <div class="fleet-item">
+            <span>Tracking ID</span>
+            <strong>XYNZ-34982</strong>
+          </div>
+
+          <div class="fleet-item">
+            <span>Destination</span>
+            <strong>Freetown , Sierra leone </strong>
+          </div>
+
+          <div class="fleet-item">
+            <span>Status</span>
+            <strong>Package Delivered</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- =========================
+   DELIVERY STATS
+========================= -->
+<section class="delivery-stats">
+
+  <div class="stats-grid">
+
+    <div class="stats-box">
+      <h2 class="counter" data-target="25000">0</h2>
+      <p>Packages Delivered</p>
+    </div>
+
+    <div class="stats-box">
+      <h2 class="counter" data-target="80">0</h2>
+      <p>Countries Covered</p>
+    </div>
+
+    <div class="stats-box">
+      <h2 class="counter" data-target="99">0</h2>
+      <p>Success Rate</p>
+    </div>
+
+    <div class="stats-box">
+      <h2 class="counter" data-target="24">0</h2>
+      <p>24/7 Support</p>
+    </div>
+
+  </div>
+
+</section>
+<!-- =========================
+   FAQ SECTION
+========================= -->
+<section class="faq-section">
+
+  <div class="section-head">
+    <span class="section-tag">Support Center</span>
+    <h2>Frequently Asked Questions</h2>
+  </div>
+
+  <div class="faq-container">
+
+    <div class="faq-item active">
+      <div class="faq-question">
+        How do I track my shipment?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+
+      <div class="faq-answer">
+        Enter your tracking number in the tracking field to monitor shipment updates.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        How long does international shipping take?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+
+      <div class="faq-answer">
+        Delivery times depend on location and shipping method selected.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Can I track my package in real-time?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+
+      <div class="faq-answer">
+        Yes. Our intelligent tracking system provides real-time shipment updates.
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+  <!-- ======================================= -->
+  <!-- FOOTER  (same as home)                  -->
+  <!-- ======================================= -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <a href="INDEX.HTML" class="footer-logo-wrap">
+          <div class="footer-logo-img">
+            <img src="image/WhatsApp_Image_2026-05-14_at_7.42.51_PM-removebg-preview (1).png"
+              alt="XYNZ MAIL"/>
+          </div>
+          <div class="footer-logo-text">
+            <span class="footer-logo-name">XYNZ<strong>MAIL</strong></span>
+            <span class="footer-logo-sub">Global Logistics &amp; Printing</span>
+          </div>
+        </a>
+        <p class="footer-brand-desc">
+          We seamlessly blend cutting-edge technology, global connectivity,
+          and unmatched expertise to redefine how businesses approach their
+          supply chain challenges worldwide.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="footer-social" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="footer-social" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="footer-social" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="footer-social" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="INDEX.HTML"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+          <li><a href="Service.html"><i class="fa-solid fa-chevron-right"></i> Services</a></li>
+          <li><a href="Printing.html"><i class="fa-solid fa-chevron-right"></i> Printing</a></li>
+          <li><a href="Tracking.html"><i class="fa-solid fa-chevron-right"></i> Tracking</a></li>
+          <li><a href="Service.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Sea Freight</a></li>
+          <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Air Freight</a></li>
+          <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Road Freight</a></li>
+          <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Warehousing</a></li>
+          <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Packaging</a></li>
+          <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Printing Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-group">
+        <h4>Contact Us</h4>
+        <ul class="footer-contact-list">
+          <li><i class="fa-solid fa-location-dot"></i>
+            <span>123 Logistics Avenue, Business District, Lagos, Nigeria</span></li>
+          <li><i class="fa-solid fa-phone"></i>
+            <a href="tel:+2348000000000">+234 800 000 0000</a></li>
+          <li><i class="fa-solid fa-envelope"></i>
+            <a href="mailto:info@xynzmail.com">info@xynzmail.com</a></li>
+          <li><i class="fa-solid fa-clock"></i>
+            <span>Mon – Fri: 8:00am – 6:00pm</span></li>
+        </ul>
+        <div class="footer-newsletter">
+          <p>Subscribe to our newsletter</p>
+          <form class="footer-newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email address" required/>
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="footerYear"></span> XYNZ MAIL. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="Tracking.js"></script>
+
+</body>
+</html>
